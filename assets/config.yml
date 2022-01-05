@@ -36,7 +36,7 @@ services:
     icon: 'fas fa-play-circle'
     items:
       - name: 'Plex'
-        logo: 'assets/tools/pi-hole.png'
+        logo: 'assets/tools/plex.png'
         tag: 'media'
         url: 'http://home.bebop:32400/web'
         target: '_blank'
