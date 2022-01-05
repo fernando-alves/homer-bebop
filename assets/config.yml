@@ -1,0 +1,42 @@
+---
+title: 'Bebop'
+subtitle: 'Home'
+logo: 'assets/logo.png'
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'
+
+columns: 3
+connectivityCheck: true
+
+theme: default
+
+message:
+  content: 'Whatever happens, happens.'
+
+services:
+  - name: 'Applications'
+    icon: 'fas fa-code-branch'
+    items:
+      - name: 'Open Media Vault'
+        logo: 'assets/tools/sample.png'
+        tag: 'NAS'
+        url: 'http://home.bebop:4444'
+        target: '_blank'
+  - name: 'Network'
+    icon: 'fas fa-network-wired'
+    items:
+      - name: 'Pi-hole'
+        logo: 'assets/tools/pi-hole.png'
+        tag: 'network'
+        url: 'http://home.bebop:4445/admin'
+        type: 'PiHole'
+        target: '_blank'
+  - name: 'Media'
+    icon: 'fas fa-play-circle'
+    items:
+      - name: 'Plex'
+        logo: 'assets/tools/pi-hole.png'
+        tag: 'media'
+        url: 'http://home.bebop:32400/web'
+        target: '_blank'
