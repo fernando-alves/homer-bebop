@@ -1,7 +1,9 @@
 .PHONY: start stop update
 
+CURRENT_USER := $(shell id -u)
+
 start:
-	UID=${UID} GID=${GID} docker-compose up -d
+	env UID=${CURRENT_USER} docker-compose up -d
 
 stop:
 	docker-compose down
