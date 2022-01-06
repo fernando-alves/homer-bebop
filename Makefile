@@ -1,4 +1,4 @@
-.PHONY: start stop update
+.PHONY: start stop pull restart
 
 CURRENT_USER := $(shell id -u)
 
@@ -11,4 +11,4 @@ stop:
 pull:
 	git pull
 
-update: stop pull start
+restart: stop start
