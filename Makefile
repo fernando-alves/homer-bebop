@@ -1,9 +1,10 @@
 .PHONY: start stop pull restart
 
 CURRENT_USER := $(shell id -u)
+USER_GROUP := $(shell id -g)
 
 start:
-	env UID=${CURRENT_USER} docker-compose up -d
+	env PUID=${CURRENT_USER} PGID=${USER_GROUP} docker-compose up -d
 
 stop:
 	docker-compose down
