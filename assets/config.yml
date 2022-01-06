@@ -1,7 +1,7 @@
 ---
 title: 'Bebop'
 subtitle: 'Home'
-logo: 'assets/logo.png'
+logo: 'assets/tools/ein.png'
 
 header: true
 footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'
